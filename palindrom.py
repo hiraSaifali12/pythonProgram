@@ -34,8 +34,26 @@ def pal4(s):
         return True
     else:
         return False
+#------------------------------------------
+def pal(num):
+    
+    temp=num
+    rev=0
+    while(temp>0):
+        dig=temp%10
+        rev=(rev*10)+dig
+        temp=temp//10
+        
+    if num==rev:
+        return True
+    else:
+        return False
+#-------------------------------------------------------
 s="nitin"
 print(pal(s))
 print(pal12(s))        
 print(pal3(s))
 print(pal4(s))
+#--------------------number---------palindrom---------------
+num=12322
+print(pal(num))
