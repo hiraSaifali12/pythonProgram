@@ -12,7 +12,7 @@ def countS(s):
     new=new+s[i]+str(count)
     return new
 
-#===============while loop=================
+#===============while loop=================+
 def com(s):
     n=len(s)
     i=0
