@@ -24,3 +24,5 @@ def fizzBuzzDic(n):
 fizzBuzz(15)          
              
 fizzBuzzDic(20)  
+
+
